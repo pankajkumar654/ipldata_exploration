@@ -123,9 +123,5 @@ limit 1;
 
 select count(distinct id) from ipl_data_exploration.ipl_matches im 
 where date < '30-12-2020';
-
+-- or 
 select count(distinct id) from ipl_data_exploration.ipl_matches im ;
-
-
--- total number of matches win by each team
---its a last question so please complete 
